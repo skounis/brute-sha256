@@ -4,7 +4,8 @@
   "description": "Demonstrate a brute force attack on sha256 hashed strings.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "PORT=8070 node server.js"
   },
   "author": "Stavros Kounis",
   "license": "Apache-2.0",
