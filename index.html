@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Example</title>
+  <style>
+      /* html {
+          height: 100%;
+      } */
+    html, body {
+      display: flex;
+      flex-direction: column;
+      margin: 1vh;
+      height: 98vh;
+    }
+    body > textarea {
+        flex: 1;   
+    }
+    textarea {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #00ff00;
+    padding: 8px;
+    font-family: courier new;
+    box-sizing: border-box;
+}
+  </style>
+</head>
+
+<body>
+  <!-- <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script> -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  <script>
+    $(function() {
+      var socket = io();
+      socket.on('log_message', function(msg) {
+        //   $('#messages').append($('<li>').text(msg));
+
+        $('#console').append(msg);
+      });
+    });
+  </script>
+
+<textarea id="console" style="width: 100%; height: 100%;">
+/**
+* Brute force hashed text that follows a Sequential Pattern\
+* 
+* Hashed method:
+*   - HMAC_SHA256("key", "The quick brown fox jumps over the lazy dog")
+*/
+
+// Crack it with the assumptions
+//    - We know the phrase
+//    - The UVCIs we are looking for are following a Sequential Pattern</textarea>
+</body>
+
+</html>
