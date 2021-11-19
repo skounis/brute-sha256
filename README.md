@@ -26,3 +26,8 @@ pm2 start npm --name bf -- run server
 - https://www.freecodecamp.org/news/how-to-code-your-own-event-emitter-in-node-js-a-step-by-step-guide-e13b7e7908e1/
 - https://socket.io/get-started/chat
 - https://sebhastian.com/javascript-array-string/
+
+### Todo
+Add typerwiter effect
+- https://stackoverflow.com/questions/13325008/typewriter-effect-with-jquery
+- https://www.w3schools.com/howto/howto_js_typewriter.asp
